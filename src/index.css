@@ -118,6 +118,7 @@ body {
 .pizza {
   display: flex;
   gap: 3.2rem;
+  align-items: center;
 }
 
 .pizza img {
