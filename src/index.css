@@ -188,6 +188,78 @@ body {
   background-color: var(--accent);
 }
 
+/* Mobile */
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-position: left bottom;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header h1::before,
+  .header h1::after {
+    width: 5rem;
+  }
+
+  .pizzas {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+
+  .pizza {
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  .pizza img {
+    width: 10rem;
+    aspect-ratio: 1;
+    align-self: start;
+  }
+
+  .pizza div {
+    gap: 0.8rem;
+  }
+
+  .pizza h3 {
+    font-size: 1.2rem;
+  }
+
+  .pizza p {
+    font-size: 0.9rem;
+  }
+
+  .pizza span {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pizzas {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+  .pizza h3 {
+    font-size: 1.4rem;
+  }
+
+  .pizza p {
+    font-size: 1.2rem;
+  }
+
+  .pizza span {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .pizzas {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 64 / 80 / 96 / 128
