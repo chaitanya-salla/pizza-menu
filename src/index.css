@@ -24,7 +24,7 @@ body {
   font-weight: 400;
   background: url("../public/pizzas/ivan-torres-MQUqbmszGGM-unsplash.jpg")
     no-repeat fixed center;
-  backdrop-filter: brightness(50%) blur(10px);
+  backdrop-filter: brightness(40%) blur(5px) sepia(0.4);
   border-bottom: 1.6rem solid var(--primary);
   min-height: 100vh;
   padding: 3.2rem;
